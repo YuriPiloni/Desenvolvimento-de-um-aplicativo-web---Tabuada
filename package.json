@@ -1,0 +1,20 @@
+{
+  "name": "desenvolvimento-de-um-aplicativo-web---tabuada",
+  "version": "1.0.0",
+  "description": "Desenvolvendo o primeiro aplicativo web com Node/JS",
+  "main": "index.js",
+  "scripts": {
+    "start": "Node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/YuriPiloni/Desenvolvimento-de-um-aplicativo-web---Tabuada.git"
+  },
+  "author": "Yuri Marques Piloni",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/YuriPiloni/Desenvolvimento-de-um-aplicativo-web---Tabuada/issues"
+  },
+  "homepage": "https://github.com/YuriPiloni/Desenvolvimento-de-um-aplicativo-web---Tabuada#readme"
+}
