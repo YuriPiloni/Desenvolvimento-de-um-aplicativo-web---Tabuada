@@ -25,6 +25,7 @@ function paginaInicial(requisicao, resposta){
 
 // Rota para gerar a tabuada
 app.get('/tabuada', (req, res) => {
+
     // Pegando os parâmetros da URL
     const numero = parseInt(req.query.tabuada) || 1; // Se não for informado, o número padrão será 1
     const sequencia = parseInt(req.query.sequencia) || 10; // Padrão de 10 multiplicações
@@ -35,7 +36,7 @@ app.get('/tabuada', (req, res) => {
     tabuadaHtml += `<ul>`;
 
     for (let i = 0; i <= sequencia; i++) {
-        tabuadaHtml += `<li>${numero} x ${i} = ${numero * i}</li>`;
+        tabuadaHtml += `<li style="color: green;">${numero} x ${i} = ${numero * i}</li>`;
     }
 
     tabuadaHtml += `</ul>`;
