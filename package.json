@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "Desenvolvendo o primeiro aplicativo web com Node/JS",
   "main": "index.js",
+  "type": "module",
   "scripts": {
     "start": "Node index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -16,5 +17,8 @@
   "bugs": {
     "url": "https://github.com/YuriPiloni/Desenvolvimento-de-um-aplicativo-web---Tabuada/issues"
   },
-  "homepage": "https://github.com/YuriPiloni/Desenvolvimento-de-um-aplicativo-web---Tabuada#readme"
+  "homepage": "https://github.com/YuriPiloni/Desenvolvimento-de-um-aplicativo-web---Tabuada#readme",
+  "dependencies": {
+    "express": "^4.21.1"
+  }
 }
